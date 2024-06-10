@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "14645185116",
+    "project_id": "attendence-7cf98",
+    "storage_bucket": "attendence-7cf98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14645185116:android:47c217e6bec6c6d613b499",
+        "android_client_info": {
+          "package_name": "com.example.chemistryattandance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLhF_935nxenUZvdVZRDL0MplxcaEyMX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14645185116:android:589e9af7b02645d313b499",
+        "android_client_info": {
+          "package_name": "com.niquewrld.attendencechemisty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLhF_935nxenUZvdVZRDL0MplxcaEyMX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

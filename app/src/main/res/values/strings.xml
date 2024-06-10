@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ChemistryAttandance</string>
+    <string name="student">Student</string>
+    <string name="lecturer">Lecturer</string>
+    <string name="create_student" />
+    <string name="create_lecturer" />
+    <string name="create_room" />
+    <string name="room_code" />
+    <string name="select_role">Select Role</string>
+</resources>
