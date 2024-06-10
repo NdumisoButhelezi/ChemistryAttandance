@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="moduleNameEditText" type="id" />
+    <item name="lectureNameEditText" type="id" />
+    <item name="startTimeEditText" type="id" />
+    <item name="endTimeEditText" type="id" />
+</resources>

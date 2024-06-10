@@ -1,25 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LecturerDashboardActivity">
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/moduleNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Module Name"
+        android:layout_marginBottom="8dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/lectureNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lecture Name"
+        android:layout_below="@id/moduleNameEditText"
+        android:layout_marginBottom="8dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/startTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Time"
+        android:layout_below="@id/lectureNameEditText"
+        android:layout_marginBottom="8dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/endTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="End Time"
+        android:layout_below="@id/startTimeEditText"
+        android:layout_marginBottom="16dp"
+        android:inputType="text" />
+
+    <ImageView
+        android:id="@+id/qrCodeImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/endTimeEditText"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:layout_marginBottom="16dp" />
 
     <Button
         android:id="@+id/createRoomButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/create_room"
+        android:text="Create Room"
+        android:layout_below="@id/qrCodeImageView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginBottom="8dp" />
 
-    <ImageView
-        android:id="@+id/qrCodeImageView"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+    <Button
+        android:id="@+id/saveStudentsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Students"
         android:layout_below="@id/createRoomButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:visibility="gone" />
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/viewRoomsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Rooms"
+        android:layout_below="@id/saveStudentsButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp" />
 
 </RelativeLayout>

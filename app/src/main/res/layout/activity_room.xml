@@ -8,16 +8,20 @@
         android:id="@+id/roomCodeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/room_code"
+        android:text="Room Code: "
         android:textSize="18sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp" />
 
     <ListView
         android:id="@+id/peopleListView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/roomCodeTextView"
-        android:layout_marginTop="16dp"/>
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:paddingTop="8dp" />
+
 </RelativeLayout>
+
